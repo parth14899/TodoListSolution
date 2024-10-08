@@ -1,5 +1,5 @@
-using CalculatorApi.Interfaces;
-using CalculatorApi.Services;
+using DigitalCalculatorApi.Interfaces;
+using DigitalCalculatorApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +9,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//used of Icalculatorservice builder
-builder.Services.AddTransient<ICalculatorService, CalculatorService>();
+//here add the builder of Interfacecalculator
+builder.Services.AddTransient<ICalculatorService, DigitalCalculatorService>();
 
 
 var app = builder.Build();

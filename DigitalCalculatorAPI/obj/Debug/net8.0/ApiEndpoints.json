@@ -1,0 +1,126 @@
+[
+  {
+    "ContainingType": "CalculatorApi.Controllers.CalculatorController",
+    "Method": "Add",
+    "RelativePath": "Calculator/add",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CalculatorApi.Controllers.CalculatorController",
+    "Method": "Divide",
+    "RelativePath": "Calculator/divide",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CalculatorApi.Controllers.CalculatorController",
+    "Method": "Multiply",
+    "RelativePath": "Calculator/multiply",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CalculatorApi.Controllers.CalculatorController",
+    "Method": "Subtract",
+    "RelativePath": "Calculator/subtract",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

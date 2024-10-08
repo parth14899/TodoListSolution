@@ -14,10 +14,10 @@ namespace DigicalculatorAPI.Controllers
             _calculatorService = calculatorService;
         }
 
-        [HttpGet("add")]
+        [HttpGet("Addition")]
         public ActionResult<double> Add(double a, double b)
         {
-            return _calculatorService.Add(a, b);
+            return _calculatorService.Addition(a, b);
         }
 
         [HttpGet("subtract")]

@@ -11,7 +11,7 @@ namespace DigicalculatorAPI.Controllers
 
         public CalculatorController(ICalculatorService calculatorService)
         {
-            _calculatorService = calculatorService;
+            _calculatorService = calcurService;
         }
 
         [HttpGet("Add")]

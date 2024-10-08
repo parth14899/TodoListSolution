@@ -1,10 +1,8 @@
-﻿//calling or coonrcting with the Calculator Interfaces
-using CalculatorApi.Interfaces;
+﻿using DigitalCalculatorApi.Interfaces;
 
-namespace CalculatorApi.Services
+namespace DigitalCalculatorApi.Services
 {
-    //performing operation with the help of operators
-    public class CalculatorService : ICalculatorService
+    public class DigitalCalculatorService : ICalculatorService
     {
         public double Add(double a, double b) => a + b;
 

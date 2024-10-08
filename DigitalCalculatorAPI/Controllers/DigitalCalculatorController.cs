@@ -1,19 +1,19 @@
-﻿using CalculatorApi.Interfaces;
+﻿using DigitalCalculatorApi.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CalculatorApi.Controllers
+namespace DigitalCalculatorApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class CalculatorController : ControllerBase
     {
         private readonly ICalculatorService _calculatorService;
-        //calling Icalcluatorservice in  controller.
+
         public CalculatorController(ICalculatorService calculatorService)
         {
             _calculatorService = calculatorService;
         }
-        //using get method
+
         [HttpGet("add")]
         public ActionResult<double> Add(double a, double b)
         {
